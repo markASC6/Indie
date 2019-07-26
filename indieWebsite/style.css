@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(86,191,255) 40%, rgb(87,135,55) 41%);
+    margin: 0
+}
+#background{
+    display: flex;
+
+    align-content: flex-start
+}
+.container{
+    position: relative;
+    text-align: center;
+    /* color: white; */
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: orange;
+    -webkit-text-stroke: 2px rgb(36, 35, 35);
+    font-family: 'Candal', sans-serif;
+    font-size: 60px
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    justify-content: space-evenly;
+    font-size: 50px;
+    margin-right: 60px;
+    display: inline;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.title{
+    font-size: .01px
+}
+
+img{
+    width: 400px;
+}
+.Games{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+    
+}
+.pics{
+    display:flex;
+}
+img{
+    justify-content: space-around;
+}
+div{
+    display: flex;
+}
+#dumb{
+    margin-left: -50px
+}
+/* .console{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline
+} */
+.ps4{
+    width: 200px;
+}
+.steam{
+    width: 200px;
+}
